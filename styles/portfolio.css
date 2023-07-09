@@ -1,0 +1,118 @@
+/* common shared styles*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;    
+}
+.header{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;   
+    background-color: #FFF8F3;
+}
+.head{
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.head >.head-logo span{
+    color: red;
+}
+.head .menu{
+    margin: 0 auto;
+}
+.head .menu ul{
+    display: flex;
+}
+.head .menu ul li{
+    margin: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.head .menu ul li a{
+    text-decoration: none;
+}
+.proitfolio{
+    display: flex;
+}
+.proitfolio .text-part{
+    padding-top: 15%;
+    padding: 30px;
+}
+.gap{
+    height: 80px;
+}
+.about-part{
+    background-color: #FFF8F3;
+}
+.head-text{
+    text-align: center;
+    font-size: 30px;
+    padding: 60px;
+}
+.text-part{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2;
+}
+.contact{
+    display: flex;
+    gap:;
+    justify-content: space-between;
+    padding: 40px 0 40px 0;
+}
+.name-part{
+    font-size: 20px;
+    
+}
+
+.cource-part{
+    display: flex;
+}
+.cource-part .cource{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+.summary{
+    display: flex; 
+    padding: 30px;
+}
+.head{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.cource-1{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  
+}
+/* .summary .education{
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+.experience{
+    padding: 20px;
+    border-bottom: 2px solid black;
+} */
+.dawnlaod-button{
+     text-align: center;
+     padding: 30px;
+}
+.dawnlaod-button button{
+    padding: 30px;
+    border-radius: 20px;
+}
